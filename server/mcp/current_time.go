@@ -4,8 +4,9 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/mark3labs/mcp-go/mcp"
 	"time"
+
+	"github.com/mark3labs/mcp-go/mcp"
 )
 
 func init() {

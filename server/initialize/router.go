@@ -6,6 +6,7 @@ import (
 
 	"github.com/flipped-aurora/gin-vue-admin/server/docs"
 	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	mcpHttpFuncRouter "github.com/flipped-aurora/gin-vue-admin/server/mcp/http_func"
 	"github.com/flipped-aurora/gin-vue-admin/server/middleware"
 	"github.com/flipped-aurora/gin-vue-admin/server/router"
 	"github.com/gin-gonic/gin"
@@ -114,6 +115,9 @@ func Routers() *gin.Engine {
 
 	// 注册业务路由
 	initBizRouter(PrivateGroup, PublicGroup)
+
+	// 注册MCP HTTP模块路由
+	mcpHttpFuncRouter.InitHttpApiRouter(PublicGroup, PrivateGroup)
 
 	global.GVA_ROUTERS = Router.Routes()
 

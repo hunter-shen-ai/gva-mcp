@@ -58,7 +58,7 @@
   "/src/view/systemTools/autoCode/component/previewCodeDialog.vue": "PreviewCodeDialog",
   "/src/view/systemTools/autoCode/index.vue": "AutoCode",
   "/src/view/systemTools/autoCode/mcp.vue": "Mcp",
-  "/src/view/systemTools/autoCode/mcpToolsTest.vue": "McpToolsTest",
+  "/src/view/systemTools/autoCode/mcpTest.vue": "McpTest",
   "/src/view/systemTools/autoCode/picture.vue": "Picture",
   "/src/view/systemTools/autoCodeAdmin/index.vue": "AutoCodeAdmin",
   "/src/view/systemTools/autoPkg/autoPkg.vue": "AutoPkg",
@@ -70,5 +70,10 @@
   "/src/view/systemTools/system/system.vue": "Config",
   "/src/plugin/announcement/form/info.vue": "InfoForm",
   "/src/plugin/announcement/view/info.vue": "Info",
-  "/src/plugin/email/view/index.vue": "Email"
+  "/src/plugin/email/view/index.vue": "Email",
+  "/src/plugin/mcp/form/mcpServerParam.vue": "McpServerParamForm",
+  "/src/plugin/mcp/form/mcpServerTool.vue": "McpServerToolForm",
+  "/src/plugin/mcp/view/mcpClientShowTools.vue": "McpClientShowTools",
+  "/src/plugin/mcp/view/mcpServerParam.vue": "McpServerParam",
+  "/src/plugin/mcp/view/mcpServerTool.vue": "McpServerTool"
 }
